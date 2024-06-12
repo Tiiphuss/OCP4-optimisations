@@ -34,5 +34,5 @@ let nonActive=document.querySelectorAll(".nav-link")
 nonActive.forEach(function(span){span.style.backgroundColor="white"
 span.style.color="black"
 active.style.backgroundColor="#BEB45A"
-active.style.color="white"})
+active.style.color="black"})
 var tag=$(this).data("images-toggle");$(".gallery-item").each(function(){$(this).parents(".item-column").hide();if(tag==="all"){$(this).parents(".item-column").show(300)}else if($(this).data("gallery-tag")===tag){$(this).parents(".item-column").show(300)}})}}})(jQuery)
